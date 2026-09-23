@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 131806975}
   - component: {fileID: 131806977}
   - component: {fileID: 131806976}
+  - component: {fileID: 131806978}
   m_Layer: 5
   m_Name: IconoAyuda
   m_TagString: Untagged
@@ -327,6 +328,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131806974}
   m_CullTransparentMesh: 1
+--- !u!114 &131806978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131806974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e907f3c986d04b4b9eac9b823a11358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PulsoOchoFrames
+  velocidad: 5
+  desfase: 5.3
 --- !u!1 &132759909
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +353,7 @@ GameObject:
   - component: {fileID: 132759910}
   - component: {fileID: 132759912}
   - component: {fileID: 132759911}
+  - component: {fileID: 132759913}
   m_Layer: 5
   m_Name: 'iconoBuscar '
   m_TagString: Untagged
@@ -402,6 +418,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132759909}
   m_CullTransparentMesh: 1
+--- !u!114 &132759913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132759909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e907f3c986d04b4b9eac9b823a11358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PulsoOchoFrames
+  velocidad: 5
+  desfase: 2.6
 --- !u!1 &234639860
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +838,7 @@ GameObject:
   - component: {fileID: 374921050}
   - component: {fileID: 374921052}
   - component: {fileID: 374921051}
+  - component: {fileID: 374921053}
   m_Layer: 5
   m_Name: IconoInicio
   m_TagString: Untagged
@@ -872,6 +903,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374921049}
   m_CullTransparentMesh: 1
+--- !u!114 &374921053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374921049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e907f3c986d04b4b9eac9b823a11358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PulsoOchoFrames
+  velocidad: 5
+  desfase: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,6 +2014,7 @@ GameObject:
   - component: {fileID: 1324162710}
   - component: {fileID: 1324162712}
   - component: {fileID: 1324162711}
+  - component: {fileID: 1324162713}
   m_Layer: 5
   m_Name: IconoAjustes
   m_TagString: Untagged
@@ -2033,6 +2079,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324162709}
   m_CullTransparentMesh: 1
+--- !u!114 &1324162713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324162709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d821e56fd5963454da0a8ac49528ccd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArrastrarSprite
 --- !u!1 &1384344751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3365c4258f1406d45a76efc0cae92140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AbrirEnlace
+  velocidad: 5
+  desfase: 0
 --- !u!1 &1385263728
 GameObject:
   m_ObjectHideFlags: 0
