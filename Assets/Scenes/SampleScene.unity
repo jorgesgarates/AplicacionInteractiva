@@ -1366,6 +1366,7 @@ GameObject:
   - component: {fileID: 976785325}
   - component: {fileID: 976785324}
   - component: {fileID: 976785323}
+  - component: {fileID: 976785326}
   m_Layer: 5
   m_Name: BotonIniciar
   m_TagString: Untagged
@@ -1436,7 +1437,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 976785324}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 976785326}
+        m_TargetAssemblyTypeName: AbrirEscenaColisiones, Assembly-CSharp
+        m_MethodName: AbrirEscena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &976785324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1475,6 +1488,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976785321}
   m_CullTransparentMesh: 1
+--- !u!114 &976785326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976785321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bf7221fda16cd46ba3bbe26d2999f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AbrirEscenaColisiones
 --- !u!1 &1033326893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,6 +2040,8 @@ GameObject:
   - component: {fileID: 1324162712}
   - component: {fileID: 1324162711}
   - component: {fileID: 1324162713}
+  - component: {fileID: 1324162715}
+  - component: {fileID: 1324162714}
   m_Layer: 5
   m_Name: IconoAjustes
   m_TagString: Untagged
@@ -2091,6 +2118,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d821e56fd5963454da0a8ac49528ccd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrastrarSprite
+--- !u!114 &1324162714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324162709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1ed411a083e11478b3af0474b8129e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActivarAnimacionAjustes
+--- !u!95 &1324162715
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324162709}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea868cebac2728047b16c67be2e41665, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1384344751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,6 +2418,7 @@ GameObject:
   - component: {fileID: 1428424457}
   - component: {fileID: 1428424459}
   - component: {fileID: 1428424458}
+  - component: {fileID: 1428424460}
   m_Layer: 5
   m_Name: INICIAR
   m_TagString: Untagged
@@ -2485,6 +2547,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428424456}
   m_CullTransparentMesh: 1
+--- !u!114 &1428424460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428424456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bf7221fda16cd46ba3bbe26d2999f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AbrirEscenaColisiones
 --- !u!1 &1525804512
 GameObject:
   m_ObjectHideFlags: 0
